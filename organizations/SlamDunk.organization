@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="SlamDunk">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="linda.lamouchi">
+      <firstName>Linda</firstName>
+      <lastName>Lamouchi</lastName>
+      <title>Ms</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">linda</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lina">
+      <firstName>lina</firstName>
+      <lastName>Lamouchi</lastName>
+      <title>Ms</title>
+      <manager>linda</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">lina</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="hana">
+      <firstName>Hana</firstName>
+      <lastName>hana</lastName>
+      <title>Ms</title>
+      <manager>linda</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">hana</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Aziz">
+      <firstName>Aziz</firstName>
+      <lastName>Aziz</lastName>
+      <title>Mr</title>
+      <manager>hana</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">aziz</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Accountant">
+      <displayName>Accountant</displayName>
+    </role>
+    <role name="HR Clerck">
+      <displayName>HR Clerck</displayName>
+    </role>
+    <role name="Administrator">
+      <displayName>Administrator</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Employees">
+      <displayName>Employees</displayName>
+    </group>
+    <group name="Supervisors">
+      <displayName>Supervisors</displayName>
+    </group>
+    <group name="Admin">
+      <displayName>Admin</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>linda.lamouchi</userName>
+      <roleName>Administrator</roleName>
+      <groupName>Admin</groupName>
+    </membership>
+    <membership>
+      <userName>linda.lamouchi</userName>
+      <roleName>HR Clerck</roleName>
+      <groupName>Supervisors</groupName>
+    </membership>
+    <membership>
+      <userName>linda.lamouchi</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>lina</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>hana</userName>
+      <roleName>HR Clerck</roleName>
+      <groupName>Supervisors</groupName>
+    </membership>
+    <membership>
+      <userName>Aziz</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

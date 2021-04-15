@@ -1,0 +1,31 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "List",
+  "name" : "List",
+  "lastUpdate" : 1618170807613,
+  "rows" : [
+    [ ]
+  ],
+  "assets" : [
+    {
+      "id" : "2daa70d3-d76b-40bd-8a0b-aae995b0f5cc",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "8f9d09ed-05fa-44d7-805f-b486d8d29d61",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "f08aee54-dbeb-43fb-b087-c9d6822ec15d",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
